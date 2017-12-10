@@ -1,0 +1,20 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700';
+@import 'https://fonts.googleapis.com/css?family=Barlow+Condensed:400,500,600,700';
+
+// Bootstrap library
+@import 'bootstrap/scss/bootstrap';
+
+html{min-height: 100%; width: 100%;}
+body {height: 100%;font-family: 'Barlow Condensed', sans-serif;}
+h1, h2 {
+  color: $yellow;
+  text-shadow: 1px 1px 1px $gray-700;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: -1px;
+}
+h2{font-style: italic}
+.btn-order{text-transform: uppercase;}
+.book {
+  background-image: linear-gradient(to bottom, #0D121C, #5E6389);
+}
+.advantageNumber{border-radius: 100%; padding: 0.4rem 0.4rem; background-color: $gray-300; font-size: 2rem;text-align: center;}
